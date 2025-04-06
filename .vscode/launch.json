@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Train StepBERT (module)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "sequence_similarity_search.training.train",
+      "justMyCode": false,
+      "console": "integratedTerminal",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      }
+    }
+  ]
+}
