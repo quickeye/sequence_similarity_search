@@ -1,0 +1,20 @@
+# Core
+torch>=2.0.0
+torchvision
+numpy
+scipy
+
+# Data
+pandas
+scikit-learn
+
+# Tokenization / text utils
+sentencepiece  # optional if you use subword BERT-style later
+regex
+
+# File & CLI
+tqdm
+
+# Optional: visualization / debugging
+matplotlib
+seaborn
