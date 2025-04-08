@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: sequence-similarity-search
+Version: 0.1.0
+Summary: A BERT-style encoder for step-level similarity in process flows.
+Author-email: David Wilding <wilding@gmail.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: torch>=2.0.0
+Requires-Dist: torchvision
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: regex
+Requires-Dist: tqdm
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Provides-Extra: jupyter
+Requires-Dist: jupyterlab; extra == "jupyter"
+Requires-Dist: ipykernel; extra == "jupyter"

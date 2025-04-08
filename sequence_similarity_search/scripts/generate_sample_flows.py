@@ -168,7 +168,7 @@ def generate_flow_with_metal_stack(prefix: str, num_device_litho_layers: int = 1
     return flow
 
 
-def generate_multiple_flows(out_file="data/example_flows.json"):
+def generate_multiple_flows(out_file="../data/example_flows.json"):
     flows = {
         "FX": generate_flow_with_metal_stack("FX", num_device_litho_layers=10, with_metal=True),
         "LX": generate_flow_with_metal_stack("LX", num_device_litho_layers=10, with_metal=True),

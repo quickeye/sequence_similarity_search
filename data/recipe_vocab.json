@@ -1,0 +1,18 @@
+{
+  "[PAD]": 0,
+  "[MASK]": 1,
+  "[UNK]": 2,
+  "R_ANN": 3,
+  "R_CLN": 4,
+  "R_CMP": 5,
+  "R_CVD": 6,
+  "R_DIF": 7,
+  "R_ETC": 8,
+  "R_ILD": 9,
+  "R_IMP": 10,
+  "R_LTH": 11,
+  "R_MET": 12,
+  "R_POLY": 13,
+  "R_SIN": 14,
+  "R_SOG": 15
+}

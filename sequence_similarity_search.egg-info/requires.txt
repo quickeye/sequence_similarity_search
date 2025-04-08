@@ -1,0 +1,14 @@
+torch>=2.0.0
+torchvision
+numpy
+scipy
+pandas
+scikit-learn
+regex
+tqdm
+matplotlib
+seaborn
+
+[jupyter]
+jupyterlab
+ipykernel

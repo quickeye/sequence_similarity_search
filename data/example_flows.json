@@ -15,28 +15,28 @@
       "layer": 0.0
     },
     {
-      "step_name": "FX000300",
+      "step_name": "FX000350",
       "recipe": "R_POLY",
-      "eqp_model": "POLY110",
+      "eqp_model": "POLY100",
       "step_type": "pre_poly_dep",
       "layer": 0.0
     },
     {
-      "step_name": "FX000450",
+      "step_name": "FX000400",
       "recipe": "R_IMP",
       "eqp_model": "IMP100",
       "step_type": "pre_implant",
       "layer": 0.0
     },
     {
-      "step_name": "FX000550",
+      "step_name": "FX000500",
       "recipe": "R_MET",
-      "eqp_model": "MET300",
+      "eqp_model": "MET301",
       "step_type": "pre_mto_poly",
       "layer": 0.0
     },
     {
-      "step_name": "FX000650",
+      "step_name": "FX000600",
       "recipe": "R_SIN",
       "eqp_model": "SIN120",
       "step_type": "pre_sin_poly",
@@ -45,7 +45,7 @@
     {
       "step_name": "FX000750",
       "recipe": "R_ANN",
-      "eqp_model": "ANN120",
+      "eqp_model": "ANN100",
       "step_type": "pre_anneal",
       "layer": 0.0
     },
@@ -64,84 +64,84 @@
       "layer": 1.0
     },
     {
-      "step_name": "FX001250",
+      "step_name": "FX001350",
       "recipe": "R_CLN",
       "eqp_model": "CLN200",
       "step_type": "post_etch_clean",
       "layer": 1.0
     },
     {
-      "step_name": "FX001350",
+      "step_name": "FX001500",
       "recipe": "R_DIF",
-      "eqp_model": "DIF100",
+      "eqp_model": "DIF110",
       "step_type": "diffusion",
       "layer": 1.0
     },
     {
-      "step_name": "FX001500",
-      "recipe": "R_SOG",
-      "eqp_model": "SOG110",
-      "step_type": "spin_on",
+      "step_name": "FX001600",
+      "recipe": "R_CVD",
+      "eqp_model": "CVD501",
+      "step_type": "cvd",
       "layer": 1.0
     },
     {
       "step_name": "FX002100",
       "recipe": "R_LTH",
-      "eqp_model": "LTH300",
+      "eqp_model": "LTH301",
       "step_type": "litho",
       "layer": 2.0
     },
     {
       "step_name": "FX002150",
       "recipe": "R_ETC",
-      "eqp_model": "ETC400",
+      "eqp_model": "ETC401",
       "step_type": "etch",
       "layer": 2.0
     },
     {
       "step_name": "FX002200",
       "recipe": "R_CLN",
-      "eqp_model": "CLN200",
+      "eqp_model": "CLN100",
       "step_type": "post_etch_clean",
       "layer": 2.0
     },
     {
-      "step_name": "FX002300",
-      "recipe": "R_DIF",
-      "eqp_model": "DIF100",
-      "step_type": "diffusion",
+      "step_name": "FX002250",
+      "recipe": "R_POLY",
+      "eqp_model": "POLY100",
+      "step_type": "poly_dep",
       "layer": 2.0
     },
     {
-      "step_name": "FX002450",
+      "step_name": "FX002350",
       "recipe": "R_CVD",
-      "eqp_model": "CVD501",
+      "eqp_model": "CVD500",
       "step_type": "cvd",
       "layer": 2.0
     },
     {
       "step_name": "FX003100",
       "recipe": "R_LTH",
-      "eqp_model": "LTH301",
+      "eqp_model": "LTH300",
       "step_type": "litho",
       "layer": 3.0
     },
     {
-      "step_name": "FX003200",
+      "step_name": "FX003250",
       "recipe": "R_ETC",
-      "eqp_model": "ETC400",
+      "eqp_model": "ETC401",
       "step_type": "etch",
       "layer": 3.0
     },
     {
-      "step_name": "FX003350",
+      "step_name": "FX003300",
       "recipe": "R_CLN",
       "eqp_model": "CLN200",
       "step_type": "post_etch_clean",
       "layer": 3.0
     },
     {
-      "step_name": "FX003450",
+      "step_name": "FX003350",
       "recipe": "R_MET",
       "eqp_model": "MET710",
       "step_type": "metal_dep",
@@ -149,9 +149,9 @@
     },
     {
       "step_name": "FX003500",
-      "recipe": "R_SOG",
-      "eqp_model": "SOG110",
-      "step_type": "spin_on",
+      "recipe": "R_CVD",
+      "eqp_model": "CVD501",
+      "step_type": "cvd",
       "layer": 3.0
     },
     {
@@ -162,30 +162,30 @@
       "layer": 4.0
     },
     {
-      "step_name": "FX004250",
+      "step_name": "FX004200",
       "recipe": "R_ETC",
-      "eqp_model": "ETC400",
+      "eqp_model": "ETC401",
       "step_type": "etch",
       "layer": 4.0
     },
     {
-      "step_name": "FX004300",
+      "step_name": "FX004250",
       "recipe": "R_CLN",
       "eqp_model": "CLN200",
       "step_type": "post_etch_clean",
       "layer": 4.0
     },
     {
-      "step_name": "FX004400",
-      "recipe": "R_MET",
-      "eqp_model": "MET710",
-      "step_type": "metal_dep",
+      "step_name": "FX004300",
+      "recipe": "R_POLY",
+      "eqp_model": "POLY100",
+      "step_type": "poly_dep",
       "layer": 4.0
     },
     {
-      "step_name": "FX004450",
+      "step_name": "FX004350",
       "recipe": "R_SOG",
-      "eqp_model": "SOG110",
+      "eqp_model": "SOG100",
       "step_type": "spin_on",
       "layer": 4.0
     },
@@ -197,37 +197,37 @@
       "layer": 5.0
     },
     {
-      "step_name": "FX005150",
+      "step_name": "FX005200",
       "recipe": "R_ETC",
       "eqp_model": "ETC400",
       "step_type": "etch",
       "layer": 5.0
     },
     {
-      "step_name": "FX005250",
+      "step_name": "FX005300",
       "recipe": "R_CLN",
-      "eqp_model": "CLN200",
+      "eqp_model": "CLN100",
       "step_type": "post_etch_clean",
       "layer": 5.0
     },
     {
-      "step_name": "FX005400",
-      "recipe": "R_MET",
-      "eqp_model": "MET710",
-      "step_type": "metal_dep",
+      "step_name": "FX005450",
+      "recipe": "R_POLY",
+      "eqp_model": "POLY110",
+      "step_type": "poly_dep",
       "layer": 5.0
     },
     {
-      "step_name": "FX005500",
-      "recipe": "R_CVD",
-      "eqp_model": "CVD500",
-      "step_type": "cvd",
+      "step_name": "FX005600",
+      "recipe": "R_SOG",
+      "eqp_model": "SOG100",
+      "step_type": "spin_on",
       "layer": 5.0
     },
     {
       "step_name": "FX006100",
       "recipe": "R_LTH",
-      "eqp_model": "LTH301",
+      "eqp_model": "LTH300",
       "step_type": "litho",
       "layer": 6.0
     },
@@ -239,7 +239,7 @@
       "layer": 6.0
     },
     {
-      "step_name": "FX006350",
+      "step_name": "FX006250",
       "recipe": "R_CLN",
       "eqp_model": "CLN200",
       "step_type": "post_etch_clean",
@@ -247,22 +247,22 @@
     },
     {
       "step_name": "FX006400",
-      "recipe": "R_MET",
-      "eqp_model": "MET710",
-      "step_type": "metal_dep",
+      "recipe": "R_POLY",
+      "eqp_model": "POLY100",
+      "step_type": "poly_dep",
       "layer": 6.0
     },
     {
-      "step_name": "FX006500",
-      "recipe": "R_SOG",
-      "eqp_model": "SOG110",
-      "step_type": "spin_on",
+      "step_name": "FX006550",
+      "recipe": "R_CVD",
+      "eqp_model": "CVD500",
+      "step_type": "cvd",
       "layer": 6.0
     },
     {
       "step_name": "FX007100",
       "recipe": "R_LTH",
-      "eqp_model": "LTH301",
+      "eqp_model": "LTH300",
       "step_type": "litho",
       "layer": 7.0
     },
@@ -274,65 +274,65 @@
       "layer": 7.0
     },
     {
-      "step_name": "FX007200",
+      "step_name": "FX007250",
       "recipe": "R_CLN",
       "eqp_model": "CLN100",
       "step_type": "post_etch_clean",
       "layer": 7.0
     },
     {
-      "step_name": "FX007250",
+      "step_name": "FX007350",
       "recipe": "R_MET",
-      "eqp_model": "MET710",
+      "eqp_model": "MET700",
       "step_type": "metal_dep",
       "layer": 7.0
     },
     {
-      "step_name": "FX007300",
+      "step_name": "FX007400",
       "recipe": "R_SOG",
-      "eqp_model": "SOG110",
+      "eqp_model": "SOG100",
       "step_type": "spin_on",
       "layer": 7.0
     },
     {
       "step_name": "FX008100",
       "recipe": "R_LTH",
-      "eqp_model": "LTH301",
+      "eqp_model": "LTH300",
       "step_type": "litho",
       "layer": 8.0
     },
     {
-      "step_name": "FX008250",
+      "step_name": "FX008200",
       "recipe": "R_ETC",
       "eqp_model": "ETC400",
       "step_type": "etch",
       "layer": 8.0
     },
     {
-      "step_name": "FX008350",
+      "step_name": "FX008300",
       "recipe": "R_CLN",
-      "eqp_model": "CLN200",
+      "eqp_model": "CLN100",
       "step_type": "post_etch_clean",
       "layer": 8.0
     },
     {
       "step_name": "FX008450",
       "recipe": "R_POLY",
-      "eqp_model": "POLY100",
+      "eqp_model": "POLY110",
       "step_type": "poly_dep",
       "layer": 8.0
     },
     {
-      "step_name": "FX008500",
-      "recipe": "R_CVD",
-      "eqp_model": "CVD501",
-      "step_type": "cvd",
+      "step_name": "FX008600",
+      "recipe": "R_SOG",
+      "eqp_model": "SOG100",
+      "step_type": "spin_on",
       "layer": 8.0
     },
     {
       "step_name": "FX009100",
       "recipe": "R_LTH",
-      "eqp_model": "LTH301",
+      "eqp_model": "LTH300",
       "step_type": "litho",
       "layer": 9.0
     },
@@ -344,24 +344,24 @@
       "layer": 9.0
     },
     {
-      "step_name": "FX009300",
+      "step_name": "FX009350",
       "recipe": "R_CLN",
-      "eqp_model": "CLN200",
+      "eqp_model": "CLN100",
       "step_type": "post_etch_clean",
       "layer": 9.0
     },
     {
-      "step_name": "FX009350",
-      "recipe": "R_DIF",
-      "eqp_model": "DIF110",
-      "step_type": "diffusion",
+      "step_name": "FX009500",
+      "recipe": "R_POLY",
+      "eqp_model": "POLY110",
+      "step_type": "poly_dep",
       "layer": 9.0
     },
     {
-      "step_name": "FX009400",
-      "recipe": "R_CVD",
-      "eqp_model": "CVD501",
-      "step_type": "cvd",
+      "step_name": "FX009550",
+      "recipe": "R_SOG",
+      "eqp_model": "SOG100",
+      "step_type": "spin_on",
       "layer": 9.0
     },
     {
@@ -372,80 +372,73 @@
       "layer": 10.0
     },
     {
-      "step_name": "FX010250",
+      "step_name": "FX010150",
       "recipe": "R_ETC",
-      "eqp_model": "ETC401",
+      "eqp_model": "ETC400",
       "step_type": "etch",
       "layer": 10.0
     },
     {
-      "step_name": "FX010400",
+      "step_name": "FX010250",
       "recipe": "R_CLN",
-      "eqp_model": "CLN200",
+      "eqp_model": "CLN100",
       "step_type": "post_etch_clean",
       "layer": 10.0
     },
     {
-      "step_name": "FX010450",
-      "recipe": "R_MET",
-      "eqp_model": "MET710",
-      "step_type": "metal_dep",
+      "step_name": "FX010300",
+      "recipe": "R_POLY",
+      "eqp_model": "POLY100",
+      "step_type": "poly_dep",
       "layer": 10.0
     },
     {
-      "step_name": "FX010600",
-      "recipe": "R_CVD",
-      "eqp_model": "CVD500",
-      "step_type": "cvd",
+      "step_name": "FX010350",
+      "recipe": "R_SOG",
+      "eqp_model": "SOG110",
+      "step_type": "spin_on",
       "layer": 10.0
     },
     {
       "step_name": "FX011100",
       "recipe": "R_LTH",
       "eqp_model": "LTH300",
-      "step_type": "2x_litho",
+      "step_type": "4x_litho",
       "layer": 11.0
     },
     {
       "step_name": "FX011200",
       "recipe": "R_ETC",
-      "eqp_model": "ETC401",
-      "step_type": "2x_etch",
+      "eqp_model": "ETC400",
+      "step_type": "4x_etch",
       "layer": 11.0
     },
     {
       "step_name": "FX011250",
       "recipe": "R_CLN",
       "eqp_model": "CLN200",
-      "step_type": "2x_post_etch_clean",
+      "step_type": "4x_post_etch_clean",
       "layer": 11.0
     },
     {
       "step_name": "FX011400",
       "recipe": "R_MET",
       "eqp_model": "MET710",
-      "step_type": "2x_metal_dep",
+      "step_type": "4x_metal_dep",
+      "layer": 11.0
+    },
+    {
+      "step_name": "FX011450",
+      "recipe": "R_CMP",
+      "eqp_model": "CMP800",
+      "step_type": "4x_cmp",
       "layer": 11.0
     },
     {
       "step_name": "FX011500",
-      "recipe": "R_CMP",
-      "eqp_model": "CMP810",
-      "step_type": "2x_cmp",
-      "layer": 11.0
-    },
-    {
-      "step_name": "FX011600",
       "recipe": "R_ILD",
       "eqp_model": "CVD900",
-      "step_type": "2x_inter_layer_dielectric",
-      "layer": 11.0
-    },
-    {
-      "step_name": "FX011750",
-      "recipe": "R_ILD",
-      "eqp_model": "CVD900",
-      "step_type": "2x_inter_layer_dielectric",
+      "step_type": "4x_inter_layer_dielectric",
       "layer": 11.0
     },
     {
@@ -458,35 +451,35 @@
     {
       "step_name": "FX012250",
       "recipe": "R_ETC",
-      "eqp_model": "ETC401",
+      "eqp_model": "ETC400",
       "step_type": "8x_etch",
       "layer": 12.0
     },
     {
-      "step_name": "FX012300",
+      "step_name": "FX012400",
       "recipe": "R_CLN",
       "eqp_model": "CLN200",
       "step_type": "8x_post_etch_clean",
       "layer": 12.0
     },
     {
-      "step_name": "FX012450",
+      "step_name": "FX012550",
       "recipe": "R_MET",
       "eqp_model": "MET710",
       "step_type": "8x_metal_dep",
       "layer": 12.0
     },
     {
-      "step_name": "FX012550",
+      "step_name": "FX012700",
       "recipe": "R_CMP",
       "eqp_model": "CMP810",
       "step_type": "8x_cmp",
       "layer": 12.0
     },
     {
-      "step_name": "FX012700",
+      "step_name": "FX012850",
       "recipe": "R_ILD",
-      "eqp_model": "CVD950",
+      "eqp_model": "CVD900",
       "step_type": "8x_inter_layer_dielectric",
       "layer": 12.0
     }
@@ -500,77 +493,77 @@
       "layer": 0.0
     },
     {
-      "step_name": "LX000150",
+      "step_name": "LX000250",
       "recipe": "R_DIF",
       "eqp_model": "DIF110",
       "step_type": "pre_diffusion",
       "layer": 0.0
     },
     {
-      "step_name": "LX000250",
+      "step_name": "LX000350",
       "recipe": "R_POLY",
       "eqp_model": "POLY100",
       "step_type": "pre_poly_dep",
       "layer": 0.0
     },
     {
-      "step_name": "LX000350",
+      "step_name": "LX000400",
       "recipe": "R_IMP",
       "eqp_model": "IMP200",
       "step_type": "pre_implant",
       "layer": 0.0
     },
     {
-      "step_name": "LX000400",
+      "step_name": "LX000550",
       "recipe": "R_MET",
-      "eqp_model": "MET301",
+      "eqp_model": "MET300",
       "step_type": "pre_mto_poly",
       "layer": 0.0
     },
     {
-      "step_name": "LX000500",
+      "step_name": "LX000600",
       "recipe": "R_SIN",
       "eqp_model": "SIN120",
       "step_type": "pre_sin_poly",
       "layer": 0.0
     },
     {
-      "step_name": "LX000550",
+      "step_name": "LX000750",
       "recipe": "R_ANN",
-      "eqp_model": "ANN120",
+      "eqp_model": "ANN100",
       "step_type": "pre_anneal",
       "layer": 0.0
     },
     {
       "step_name": "LX001100",
       "recipe": "R_LTH",
-      "eqp_model": "LTH300",
+      "eqp_model": "LTH301",
       "step_type": "litho",
       "layer": 1.0
     },
     {
-      "step_name": "LX001200",
+      "step_name": "LX001250",
       "recipe": "R_ETC",
       "eqp_model": "ETC400",
       "step_type": "etch",
       "layer": 1.0
     },
     {
-      "step_name": "LX001300",
+      "step_name": "LX001400",
       "recipe": "R_CLN",
       "eqp_model": "CLN100",
       "step_type": "post_etch_clean",
       "layer": 1.0
     },
     {
-      "step_name": "LX001400",
-      "recipe": "R_POLY",
-      "eqp_model": "POLY100",
-      "step_type": "poly_dep",
+      "step_name": "LX001500",
+      "recipe": "R_DIF",
+      "eqp_model": "DIF100",
+      "step_type": "diffusion",
       "layer": 1.0
     },
     {
-      "step_name": "LX001450",
+      "step_name": "LX001650",
       "recipe": "R_SOG",
       "eqp_model": "SOG100",
       "step_type": "spin_on",
@@ -584,66 +577,66 @@
       "layer": 2.0
     },
     {
-      "step_name": "LX002250",
+      "step_name": "LX002150",
       "recipe": "R_ETC",
       "eqp_model": "ETC400",
       "step_type": "etch",
       "layer": 2.0
     },
     {
-      "step_name": "LX002350",
+      "step_name": "LX002200",
       "recipe": "R_CLN",
-      "eqp_model": "CLN100",
+      "eqp_model": "CLN200",
       "step_type": "post_etch_clean",
       "layer": 2.0
     },
     {
-      "step_name": "LX002400",
-      "recipe": "R_MET",
-      "eqp_model": "MET710",
-      "step_type": "metal_dep",
+      "step_name": "LX002250",
+      "recipe": "R_POLY",
+      "eqp_model": "POLY100",
+      "step_type": "poly_dep",
       "layer": 2.0
     },
     {
-      "step_name": "LX002550",
-      "recipe": "R_SOG",
-      "eqp_model": "SOG100",
-      "step_type": "spin_on",
+      "step_name": "LX002350",
+      "recipe": "R_CVD",
+      "eqp_model": "CVD500",
+      "step_type": "cvd",
       "layer": 2.0
     },
     {
       "step_name": "LX003100",
       "recipe": "R_LTH",
-      "eqp_model": "LTH300",
+      "eqp_model": "LTH301",
       "step_type": "litho",
       "layer": 3.0
     },
     {
-      "step_name": "LX003200",
+      "step_name": "LX003250",
       "recipe": "R_ETC",
-      "eqp_model": "ETC401",
+      "eqp_model": "ETC400",
       "step_type": "etch",
       "layer": 3.0
     },
     {
-      "step_name": "LX003250",
+      "step_name": "LX003400",
       "recipe": "R_CLN",
-      "eqp_model": "CLN200",
+      "eqp_model": "CLN100",
       "step_type": "post_etch_clean",
       "layer": 3.0
     },
     {
-      "step_name": "LX003300",
-      "recipe": "R_MET",
-      "eqp_model": "MET700",
-      "step_type": "metal_dep",
+      "step_name": "LX003450",
+      "recipe": "R_POLY",
+      "eqp_model": "POLY110",
+      "step_type": "poly_dep",
       "layer": 3.0
     },
     {
-      "step_name": "LX003350",
-      "recipe": "R_CVD",
-      "eqp_model": "CVD501",
-      "step_type": "cvd",
+      "step_name": "LX003500",
+      "recipe": "R_SOG",
+      "eqp_model": "SOG110",
+      "step_type": "spin_on",
       "layer": 3.0
     },
     {
@@ -654,28 +647,28 @@
       "layer": 4.0
     },
     {
-      "step_name": "LX004250",
+      "step_name": "LX004150",
       "recipe": "R_ETC",
-      "eqp_model": "ETC401",
+      "eqp_model": "ETC400",
       "step_type": "etch",
       "layer": 4.0
     },
     {
-      "step_name": "LX004300",
+      "step_name": "LX004250",
       "recipe": "R_CLN",
       "eqp_model": "CLN200",
       "step_type": "post_etch_clean",
       "layer": 4.0
     },
     {
-      "step_name": "LX004450",
-      "recipe": "R_POLY",
-      "eqp_model": "POLY110",
-      "step_type": "poly_dep",
+      "step_name": "LX004350",
+      "recipe": "R_MET",
+      "eqp_model": "MET700",
+      "step_type": "metal_dep",
       "layer": 4.0
     },
     {
-      "step_name": "LX004600",
+      "step_name": "LX004400",
       "recipe": "R_CVD",
       "eqp_model": "CVD501",
       "step_type": "cvd",
@@ -684,36 +677,36 @@
     {
       "step_name": "LX005100",
       "recipe": "R_LTH",
-      "eqp_model": "LTH300",
+      "eqp_model": "LTH301",
       "step_type": "litho",
       "layer": 5.0
     },
     {
-      "step_name": "LX005250",
+      "step_name": "LX005150",
       "recipe": "R_ETC",
       "eqp_model": "ETC401",
       "step_type": "etch",
       "layer": 5.0
     },
     {
-      "step_name": "LX005350",
+      "step_name": "LX005200",
       "recipe": "R_CLN",
-      "eqp_model": "CLN100",
+      "eqp_model": "CLN200",
       "step_type": "post_etch_clean",
       "layer": 5.0
     },
     {
-      "step_name": "LX005500",
+      "step_name": "LX005350",
       "recipe": "R_MET",
       "eqp_model": "MET710",
       "step_type": "metal_dep",
       "layer": 5.0
     },
     {
-      "step_name": "LX005650",
-      "recipe": "R_CVD",
-      "eqp_model": "CVD501",
-      "step_type": "cvd",
+      "step_name": "LX005450",
+      "recipe": "R_SOG",
+      "eqp_model": "SOG110",
+      "step_type": "spin_on",
       "layer": 5.0
     },
     {
@@ -731,56 +724,56 @@
       "layer": 6.0
     },
     {
-      "step_name": "LX006350",
+      "step_name": "LX006300",
       "recipe": "R_CLN",
       "eqp_model": "CLN100",
       "step_type": "post_etch_clean",
       "layer": 6.0
     },
     {
-      "step_name": "LX006500",
-      "recipe": "R_DIF",
-      "eqp_model": "DIF110",
-      "step_type": "diffusion",
+      "step_name": "LX006450",
+      "recipe": "R_MET",
+      "eqp_model": "MET700",
+      "step_type": "metal_dep",
       "layer": 6.0
     },
     {
-      "step_name": "LX006550",
+      "step_name": "LX006500",
       "recipe": "R_CVD",
-      "eqp_model": "CVD501",
+      "eqp_model": "CVD500",
       "step_type": "cvd",
       "layer": 6.0
     },
     {
       "step_name": "LX007100",
       "recipe": "R_LTH",
-      "eqp_model": "LTH300",
+      "eqp_model": "LTH301",
       "step_type": "litho",
       "layer": 7.0
     },
     {
-      "step_name": "LX007150",
+      "step_name": "LX007250",
       "recipe": "R_ETC",
-      "eqp_model": "ETC400",
+      "eqp_model": "ETC401",
       "step_type": "etch",
       "layer": 7.0
     },
     {
-      "step_name": "LX007250",
+      "step_name": "LX007300",
       "recipe": "R_CLN",
-      "eqp_model": "CLN100",
+      "eqp_model": "CLN200",
       "step_type": "post_etch_clean",
       "layer": 7.0
     },
     {
-      "step_name": "LX007300",
-      "recipe": "R_MET",
-      "eqp_model": "MET700",
-      "step_type": "metal_dep",
+      "step_name": "LX007400",
+      "recipe": "R_DIF",
+      "eqp_model": "DIF110",
+      "step_type": "diffusion",
       "layer": 7.0
     },
     {
-      "step_name": "LX007350",
+      "step_name": "LX007450",
       "recipe": "R_SOG",
       "eqp_model": "SOG100",
       "step_type": "spin_on",
@@ -789,29 +782,29 @@
     {
       "step_name": "LX008100",
       "recipe": "R_LTH",
-      "eqp_model": "LTH300",
+      "eqp_model": "LTH301",
       "step_type": "litho",
       "layer": 8.0
     },
     {
-      "step_name": "LX008150",
+      "step_name": "LX008250",
       "recipe": "R_ETC",
       "eqp_model": "ETC400",
       "step_type": "etch",
       "layer": 8.0
     },
     {
-      "step_name": "LX008250",
+      "step_name": "LX008300",
       "recipe": "R_CLN",
-      "eqp_model": "CLN200",
+      "eqp_model": "CLN100",
       "step_type": "post_etch_clean",
       "layer": 8.0
     },
     {
-      "step_name": "LX008300",
-      "recipe": "R_MET",
-      "eqp_model": "MET710",
-      "step_type": "metal_dep",
+      "step_name": "LX008350",
+      "recipe": "R_DIF",
+      "eqp_model": "DIF110",
+      "step_type": "diffusion",
       "layer": 8.0
     },
     {
@@ -824,54 +817,54 @@
     {
       "step_name": "LX009100",
       "recipe": "R_LTH",
-      "eqp_model": "LTH301",
+      "eqp_model": "LTH300",
       "step_type": "litho",
       "layer": 9.0
     },
     {
-      "step_name": "LX009250",
+      "step_name": "LX009150",
       "recipe": "R_ETC",
-      "eqp_model": "ETC400",
+      "eqp_model": "ETC401",
       "step_type": "etch",
       "layer": 9.0
     },
     {
-      "step_name": "LX009350",
+      "step_name": "LX009250",
       "recipe": "R_CLN",
       "eqp_model": "CLN100",
       "step_type": "post_etch_clean",
       "layer": 9.0
     },
     {
-      "step_name": "LX009500",
+      "step_name": "LX009300",
       "recipe": "R_MET",
       "eqp_model": "MET710",
       "step_type": "metal_dep",
       "layer": 9.0
     },
     {
-      "step_name": "LX009600",
+      "step_name": "LX009400",
       "recipe": "R_CVD",
-      "eqp_model": "CVD501",
+      "eqp_model": "CVD500",
       "step_type": "cvd",
       "layer": 9.0
     },
     {
       "step_name": "LX010100",
       "recipe": "R_LTH",
-      "eqp_model": "LTH300",
+      "eqp_model": "LTH301",
       "step_type": "litho",
       "layer": 10.0
     },
     {
       "step_name": "LX010200",
       "recipe": "R_ETC",
-      "eqp_model": "ETC401",
+      "eqp_model": "ETC400",
       "step_type": "etch",
       "layer": 10.0
     },
     {
-      "step_name": "LX010300",
+      "step_name": "LX010350",
       "recipe": "R_CLN",
       "eqp_model": "CLN100",
       "step_type": "post_etch_clean",
@@ -879,58 +872,58 @@
     },
     {
       "step_name": "LX010400",
-      "recipe": "R_POLY",
-      "eqp_model": "POLY110",
-      "step_type": "poly_dep",
+      "recipe": "R_MET",
+      "eqp_model": "MET710",
+      "step_type": "metal_dep",
       "layer": 10.0
     },
     {
-      "step_name": "LX010550",
-      "recipe": "R_CVD",
-      "eqp_model": "CVD500",
-      "step_type": "cvd",
+      "step_name": "LX010450",
+      "recipe": "R_SOG",
+      "eqp_model": "SOG110",
+      "step_type": "spin_on",
       "layer": 10.0
     },
     {
       "step_name": "LX011100",
       "recipe": "R_LTH",
-      "eqp_model": "LTH300",
-      "step_type": "2x_litho",
+      "eqp_model": "LTH301",
+      "step_type": "6x_litho",
       "layer": 11.0
     },
     {
-      "step_name": "LX011200",
+      "step_name": "LX011250",
       "recipe": "R_ETC",
-      "eqp_model": "ETC400",
-      "step_type": "2x_etch",
+      "eqp_model": "ETC401",
+      "step_type": "6x_etch",
       "layer": 11.0
     },
     {
       "step_name": "LX011300",
       "recipe": "R_CLN",
       "eqp_model": "CLN200",
-      "step_type": "2x_post_etch_clean",
+      "step_type": "6x_post_etch_clean",
       "layer": 11.0
     },
     {
-      "step_name": "LX011450",
+      "step_name": "LX011400",
       "recipe": "R_MET",
-      "eqp_model": "MET700",
-      "step_type": "2x_metal_dep",
+      "eqp_model": "MET710",
+      "step_type": "6x_metal_dep",
       "layer": 11.0
     },
     {
       "step_name": "LX011500",
       "recipe": "R_CMP",
       "eqp_model": "CMP810",
-      "step_type": "2x_cmp",
+      "step_type": "6x_cmp",
       "layer": 11.0
     },
     {
-      "step_name": "LX011550",
+      "step_name": "LX011600",
       "recipe": "R_ILD",
       "eqp_model": "CVD950",
-      "step_type": "2x_inter_layer_dielectric",
+      "step_type": "6x_inter_layer_dielectric",
       "layer": 11.0
     },
     {
@@ -957,19 +950,19 @@
     {
       "step_name": "LX012300",
       "recipe": "R_MET",
-      "eqp_model": "MET710",
+      "eqp_model": "MET700",
       "step_type": "8x_metal_dep",
       "layer": 12.0
     },
     {
-      "step_name": "LX012400",
+      "step_name": "LX012350",
       "recipe": "R_CMP",
-      "eqp_model": "CMP810",
+      "eqp_model": "CMP800",
       "step_type": "8x_cmp",
       "layer": 12.0
     },
     {
-      "step_name": "LX012500",
+      "step_name": "LX012400",
       "recipe": "R_ILD",
       "eqp_model": "CVD950",
       "step_type": "8x_inter_layer_dielectric",
@@ -987,47 +980,47 @@
     {
       "step_name": "TX000100",
       "recipe": "R_CLN",
-      "eqp_model": "CLN100",
+      "eqp_model": "CLN150",
       "step_type": "pre_preclean",
       "layer": 0.0
     },
     {
-      "step_name": "TX000150",
+      "step_name": "TX000250",
       "recipe": "R_DIF",
       "eqp_model": "DIF110",
       "step_type": "pre_diffusion",
       "layer": 0.0
     },
     {
-      "step_name": "TX000200",
+      "step_name": "TX000400",
       "recipe": "R_POLY",
-      "eqp_model": "POLY110",
+      "eqp_model": "POLY100",
       "step_type": "pre_poly_dep",
       "layer": 0.0
     },
     {
-      "step_name": "TX000350",
+      "step_name": "TX000450",
       "recipe": "R_IMP",
       "eqp_model": "IMP100",
       "step_type": "pre_implant",
       "layer": 0.0
     },
     {
-      "step_name": "TX000400",
+      "step_name": "TX000550",
       "recipe": "R_MET",
-      "eqp_model": "MET300",
+      "eqp_model": "MET301",
       "step_type": "pre_mto_poly",
       "layer": 0.0
     },
     {
-      "step_name": "TX000450",
+      "step_name": "TX000600",
       "recipe": "R_SIN",
-      "eqp_model": "SIN120",
+      "eqp_model": "SIN100",
       "step_type": "pre_sin_poly",
       "layer": 0.0
     },
     {
-      "step_name": "TX000600",
+      "step_name": "TX000700",
       "recipe": "R_ANN",
       "eqp_model": "ANN120",
       "step_type": "pre_anneal",
@@ -1036,103 +1029,103 @@
     {
       "step_name": "TX001100",
       "recipe": "R_LTH",
-      "eqp_model": "LTH300",
+      "eqp_model": "LTH301",
       "step_type": "litho",
       "layer": 1.0
     },
     {
       "step_name": "TX001200",
       "recipe": "R_ETC",
-      "eqp_model": "ETC401",
+      "eqp_model": "ETC400",
       "step_type": "etch",
       "layer": 1.0
     },
     {
-      "step_name": "TX001250",
+      "step_name": "TX001350",
       "recipe": "R_CLN",
-      "eqp_model": "CLN100",
+      "eqp_model": "CLN200",
       "step_type": "post_etch_clean",
       "layer": 1.0
     },
     {
       "step_name": "TX001400",
       "recipe": "R_POLY",
-      "eqp_model": "POLY100",
+      "eqp_model": "POLY110",
       "step_type": "poly_dep",
       "layer": 1.0
     },
     {
-      "step_name": "TX001500",
-      "recipe": "R_CVD",
-      "eqp_model": "CVD500",
-      "step_type": "cvd",
+      "step_name": "TX001550",
+      "recipe": "R_SOG",
+      "eqp_model": "SOG100",
+      "step_type": "spin_on",
       "layer": 1.0
     },
     {
       "step_name": "TX002100",
       "recipe": "R_LTH",
-      "eqp_model": "LTH300",
+      "eqp_model": "LTH301",
       "step_type": "litho",
       "layer": 2.0
     },
     {
       "step_name": "TX002150",
       "recipe": "R_ETC",
-      "eqp_model": "ETC401",
+      "eqp_model": "ETC400",
       "step_type": "etch",
       "layer": 2.0
     },
     {
       "step_name": "TX002200",
       "recipe": "R_CLN",
-      "eqp_model": "CLN200",
+      "eqp_model": "CLN100",
       "step_type": "post_etch_clean",
       "layer": 2.0
     },
     {
       "step_name": "TX002250",
       "recipe": "R_DIF",
-      "eqp_model": "DIF100",
+      "eqp_model": "DIF110",
       "step_type": "diffusion",
       "layer": 2.0
     },
     {
-      "step_name": "TX002300",
+      "step_name": "TX002350",
       "recipe": "R_SOG",
-      "eqp_model": "SOG100",
+      "eqp_model": "SOG110",
       "step_type": "spin_on",
       "layer": 2.0
     },
     {
       "step_name": "TX003100",
       "recipe": "R_LTH",
-      "eqp_model": "LTH301",
+      "eqp_model": "LTH300",
       "step_type": "litho",
       "layer": 3.0
     },
     {
-      "step_name": "TX003150",
+      "step_name": "TX003250",
       "recipe": "R_ETC",
       "eqp_model": "ETC401",
       "step_type": "etch",
       "layer": 3.0
     },
     {
-      "step_name": "TX003200",
+      "step_name": "TX003350",
       "recipe": "R_CLN",
       "eqp_model": "CLN200",
       "step_type": "post_etch_clean",
       "layer": 3.0
     },
     {
-      "step_name": "TX003250",
-      "recipe": "R_DIF",
-      "eqp_model": "DIF110",
-      "step_type": "diffusion",
+      "step_name": "TX003400",
+      "recipe": "R_POLY",
+      "eqp_model": "POLY100",
+      "step_type": "poly_dep",
       "layer": 3.0
     },
     {
-      "step_name": "TX003350",
+      "step_name": "TX003450",
       "recipe": "R_SOG",
       "eqp_model": "SOG100",
       "step_type": "spin_on",
@@ -1141,19 +1134,19 @@
     {
       "step_name": "TX004100",
       "recipe": "R_LTH",
-      "eqp_model": "LTH300",
+      "eqp_model": "LTH301",
       "step_type": "litho",
       "layer": 4.0
     },
     {
       "step_name": "TX004150",
       "recipe": "R_ETC",
-      "eqp_model": "ETC401",
+      "eqp_model": "ETC400",
       "step_type": "etch",
       "layer": 4.0
     },
     {
-      "step_name": "TX004300",
+      "step_name": "TX004250",
       "recipe": "R_CLN",
       "eqp_model": "CLN200",
       "step_type": "post_etch_clean",
@@ -1161,22 +1154,22 @@
     },
     {
       "step_name": "TX004400",
-      "recipe": "R_POLY",
-      "eqp_model": "POLY100",
-      "step_type": "poly_dep",
+      "recipe": "R_MET",
+      "eqp_model": "MET700",
+      "step_type": "metal_dep",
       "layer": 4.0
     },
     {
       "step_name": "TX004550",
-      "recipe": "R_SOG",
-      "eqp_model": "SOG100",
-      "step_type": "spin_on",
+      "recipe": "R_CVD",
+      "eqp_model": "CVD500",
+      "step_type": "cvd",
       "layer": 4.0
     },
     {
       "step_name": "TX005100",
       "recipe": "R_LTH",
-      "eqp_model": "LTH301",
+      "eqp_model": "LTH300",
       "step_type": "litho",
       "layer": 5.0
     },
@@ -1190,35 +1183,35 @@
     {
       "step_name": "TX005250",
       "recipe": "R_CLN",
-      "eqp_model": "CLN200",
+      "eqp_model": "CLN100",
       "step_type": "post_etch_clean",
       "layer": 5.0
     },
     {
       "step_name": "TX005300",
-      "recipe": "R_POLY",
-      "eqp_model": "POLY110",
-      "step_type": "poly_dep",
+      "recipe": "R_DIF",
+      "eqp_model": "DIF100",
+      "step_type": "diffusion",
       "layer": 5.0
     },
     {
-      "step_name": "TX005450",
+      "step_name": "TX005350",
       "recipe": "R_CVD",
-      "eqp_model": "CVD500",
+      "eqp_model": "CVD501",
       "step_type": "cvd",
       "layer": 5.0
     },
     {
       "step_name": "TX006100",
       "recipe": "R_LTH",
-      "eqp_model": "LTH300",
+      "eqp_model": "LTH301",
       "step_type": "litho",
       "layer": 6.0
     },
     {
       "step_name": "TX006150",
       "recipe": "R_ETC",
-      "eqp_model": "ETC401",
+      "eqp_model": "ETC400",
       "step_type": "etch",
       "layer": 6.0
     },
@@ -1230,14 +1223,14 @@
       "layer": 6.0
     },
     {
-      "step_name": "TX006300",
+      "step_name": "TX006250",
       "recipe": "R_DIF",
       "eqp_model": "DIF110",
       "step_type": "diffusion",
       "layer": 6.0
     },
     {
-      "step_name": "TX006400",
+      "step_name": "TX006300",
       "recipe": "R_CVD",
       "eqp_model": "CVD500",
       "step_type": "cvd",
@@ -1246,7 +1239,7 @@
     {
       "step_name": "TX007100",
       "recipe": "R_LTH",
-      "eqp_model": "LTH301",
+      "eqp_model": "LTH300",
       "step_type": "litho",
       "layer": 7.0
     },
@@ -1260,33 +1253,33 @@
     {
       "step_name": "TX007250",
       "recipe": "R_CLN",
-      "eqp_model": "CLN200",
+      "eqp_model": "CLN100",
       "step_type": "post_etch_clean",
       "layer": 7.0
     },
     {
-      "step_name": "TX007350",
+      "step_name": "TX007300",
       "recipe": "R_POLY",
-      "eqp_model": "POLY110",
+      "eqp_model": "POLY100",
       "step_type": "poly_dep",
       "layer": 7.0
     },
     {
-      "step_name": "TX007400",
-      "recipe": "R_CVD",
-      "eqp_model": "CVD501",
-      "step_type": "cvd",
+      "step_name": "TX007350",
+      "recipe": "R_SOG",
+      "eqp_model": "SOG110",
+      "step_type": "spin_on",
       "layer": 7.0
     },
     {
       "step_name": "TX008100",
       "recipe": "R_LTH",
-      "eqp_model": "LTH300",
+      "eqp_model": "LTH301",
       "step_type": "litho",
       "layer": 8.0
     },
     {
-      "step_name": "TX008150",
+      "step_name": "TX008250",
       "recipe": "R_ETC",
       "eqp_model": "ETC400",
       "step_type": "etch",
@@ -1301,27 +1294,27 @@
     },
     {
       "step_name": "TX008350",
-      "recipe": "R_MET",
-      "eqp_model": "MET710",
-      "step_type": "metal_dep",
+      "recipe": "R_DIF",
+      "eqp_model": "DIF100",
+      "step_type": "diffusion",
       "layer": 8.0
     },
     {
-      "step_name": "TX008500",
-      "recipe": "R_SOG",
-      "eqp_model": "SOG100",
-      "step_type": "spin_on",
+      "step_name": "TX008400",
+      "recipe": "R_CVD",
+      "eqp_model": "CVD501",
+      "step_type": "cvd",
       "layer": 8.0
     },
     {
       "step_name": "TX009100",
       "recipe": "R_LTH",
-      "eqp_model": "LTH300",
+      "eqp_model": "LTH301",
       "step_type": "litho",
       "layer": 9.0
     },
     {
-      "step_name": "TX009250",
+      "step_name": "TX009200",
       "recipe": "R_ETC",
       "eqp_model": "ETC401",
       "step_type": "etch",
@@ -1335,52 +1328,52 @@
       "layer": 9.0
     },
     {
-      "step_name": "TX009450",
-      "recipe": "R_DIF",
-      "eqp_model": "DIF110",
-      "step_type": "diffusion",
+      "step_name": "TX009400",
+      "recipe": "R_POLY",
+      "eqp_model": "POLY100",
+      "step_type": "poly_dep",
       "layer": 9.0
     },
     {
-      "step_name": "TX009550",
-      "recipe": "R_CVD",
-      "eqp_model": "CVD501",
-      "step_type": "cvd",
+      "step_name": "TX009450",
+      "recipe": "R_SOG",
+      "eqp_model": "SOG110",
+      "step_type": "spin_on",
       "layer": 9.0
     },
     {
       "step_name": "TX010100",
       "recipe": "R_LTH",
-      "eqp_model": "LTH300",
+      "eqp_model": "LTH301",
       "step_type": "litho",
       "layer": 10.0
     },
     {
-      "step_name": "TX010250",
+      "step_name": "TX010200",
       "recipe": "R_ETC",
       "eqp_model": "ETC400",
       "step_type": "etch",
       "layer": 10.0
     },
     {
-      "step_name": "TX010400",
+      "step_name": "TX010300",
       "recipe": "R_CLN",
       "eqp_model": "CLN100",
       "step_type": "post_etch_clean",
       "layer": 10.0
     },
     {
-      "step_name": "TX010500",
+      "step_name": "TX010400",
       "recipe": "R_POLY",
       "eqp_model": "POLY110",
       "step_type": "poly_dep",
       "layer": 10.0
     },
     {
-      "step_name": "TX010650",
-      "recipe": "R_SOG",
-      "eqp_model": "SOG110",
-      "step_type": "spin_on",
+      "step_name": "TX010500",
+      "recipe": "R_CVD",
+      "eqp_model": "CVD501",
+      "step_type": "cvd",
       "layer": 10.0
     }
   ]
